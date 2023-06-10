@@ -1,0 +1,42 @@
+.main {
+  display: flex;
+  justify-content: space-evenly;
+}
+.container {
+  width: 300px;
+  height: 350px;
+  border: 2px solid #ccc;
+  padding: 10px;
+  float: left;
+  margin-right: 20px;
+  background-color: rgb(0, 255, 166);
+  border-radius: 5px;
+}
+
+.item {
+  background-color: #883838;
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: move;
+  color: white;
+}
+
+.item.dragging {
+  opacity: 0.8;
+}
+
+#resetButton {
+  padding: 7px 20px;
+  font-weight: bold;
+  background-color: rgb(51, 101, 114);
+  border-radius: 8px;
+  cursor: pointer;
+}
+.lastbtn {
+  text-align: center;
+}
+.success-message {
+  color: green;
+  font-weight: bold;
+  margin-top: 10px;
+}
